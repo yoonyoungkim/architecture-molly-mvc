@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: sally-2021
+      username: admin
+      password: admin
+      authentication-database: admin
+server:
+  port: 9092
+  shutdown: graceful
+---
